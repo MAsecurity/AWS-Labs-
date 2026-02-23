@@ -1,5 +1,4 @@
 # AWS-Labs-
-# AWS Labs
 
 ## 📚 About This Repository
 
