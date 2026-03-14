@@ -29,15 +29,15 @@ only play for what you consume thus saving you costs.
   <i>Instance was created</i>
 </p>
  
- ## To make sure your private key is not publicly viewable enter the following command
+ ### To make sure your private key is not publicly viewable enter the following command
  ```bash
  chmod 400 "MAseucritykey.pem"
  ```
- ## Connect to your instance via ssh
+ ### Connect to your instance via ssh
  ```bash
  ssh -i "MAseucritykey.pem" ubuntu@[PUBLIC DNS]
  ```
- ## Enter these commands to launch web server
+ ### Enter these commands to launch web server
  ```bash
  # 1. Update the local package index
 sudo apt update -y
